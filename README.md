@@ -5,17 +5,21 @@
 ![Split Keyboard](https://i.imgur.com/FZMVq06.jpg)
 (No keycaps because I can't afford them at the moment :])
 
+![KiCad view](https://i.imgur.com/sWV3AiR.png)
+
+![Real Life PCB](https://i.imgur.com/Sz99NFG.jpg)
+
 This is a *split* keyboard design, and uses I2C to communicate over a TRRS audio cable (4 poles). 
 
 The parts list is as follows:
-62 of any Cherry MX style key Switch
-62 1N4148 Zener Diodes
-2 identical Resistors from a range of 2.2k Ohms to 10k Ohms (4.7k recommended) 
-2 Arduino Pro Micros
-2 PJ-320A TRRS Female Jacks
-1 TRRS Male to Male wire
-10 M3 x 8mm Bolts
-10 M3 nuts
+* 62 of any Cherry MX style key Switch
+* 62 1N4148 Zener Diodes
+* 2 identical Resistors from a range of 2.2k Ohms to 10k Ohms (4.7k recommended) 
+* 2 Arduino Pro Micros
+* 2 PJ-320A TRRS Female Jacks
+* 1 TRRS Male to Male wire
+* 10 M3 x 8mm Bolts
+* 10 M3 nuts
 
 The 2 resistors are for the I2C line, make sure to solder them to whichever board you want to use as the 'main' side.
 
