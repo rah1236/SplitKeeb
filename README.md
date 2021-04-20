@@ -25,7 +25,7 @@ The 2 resistors are for the I2C line, make sure to solder them to whichever boar
 
 Make sure to plug in the TRRS cable **BEFORE** you plug in the USB cable, otherwise you risk shorts as the TRRS cable supplies power to the other board.
 
-To program the keyboard, the eaisest method is to use the (QMK Toolbox)[https://github.com/qmk/qmk_toolbox], and flash both Pro Micros with the same 'SplitKeeb.hex' file. After both boards have been flashed, plug in the TRRS cable, and then plug in USB, and the keyboard should work as normal. 
+To program the keyboard, the eaisest method is to use the [QMK Toolbox](https://github.com/qmk/qmk_toolbox), and flash both Pro Micros with the same 'SplitKeeb.hex' file. After both boards have been flashed, plug in the TRRS cable, and then plug in USB, and the keyboard should work as normal. 
 
 Thanks to Rayyan and David for helping me figure out the firmware :)
 
